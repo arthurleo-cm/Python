@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 
 PAGE_URL = 'http://target:port'
 
+
 def get_html_of(url):
     resp = requests.get(url)
 
